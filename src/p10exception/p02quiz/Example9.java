@@ -21,7 +21,8 @@ public class Example9 {
 
 	private static void method3() throws IOException {
 		InputStreamReader is = new InputStreamReader(System.in);
-		
+		//try catch로 감싸거나, throws로 던지기.
+		//컴파일 오류만 해결. 프로그램이 정상적으로 작동하게 만든 것은 아님.
 		is.close();
 	}
 }
